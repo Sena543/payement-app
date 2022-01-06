@@ -68,6 +68,7 @@ function BottomTabNavigator() {
 				options={({ navigation }: RootTabScreenProps<"TabOne">) => ({
 					title: "Tab One",
 					tabBarIcon: ({ color }) => <Ionicons size={30} name="ios-home" color={color} />,
+					headerStatusBarHeight: 0,
 					header: () => (
 						<Home_Header />
 						// <Pressable

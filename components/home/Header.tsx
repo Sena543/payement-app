@@ -26,6 +26,7 @@ export default Home_Header;
 const styles = StyleSheet.create({
 	root: {
 		backgroundColor: "#fff",
+		marginTop: 20,
 	},
 	main: {
 		margin: 10,
