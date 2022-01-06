@@ -112,9 +112,10 @@ const styles = StyleSheet.create({
 		opacity: 0.5,
 	},
 	shadowProp: {
-		shadowOffset: { width: 3, height: 4 },
-		shadowOpacity: 0.2,
+		shadowOffset: { width: 4, height: 10 },
+		shadowOpacity: 0.5,
 		shadowRadius: 5,
-		shadowColor: "#bbc0e0",
+		shadowColor: "#6e6d72",
+		// shadowColor: "#bbc0e0",
 	},
 });
