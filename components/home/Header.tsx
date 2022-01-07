@@ -16,7 +16,7 @@ function Home_Header() {
 				<Ionicons color={Colors[colorScheme].tabIconDefault} size={20} name="notifications" />
 				<FontAwesome color={Colors[colorScheme].tabIconDefault} name="ellipsis-v" size={20} />
 			</View>
-			<View style={{ borderBottomWidth: 0.1, borderBottomColor: "#a3a3a3" }}></View>
+			{/* <View style={{ borderBottomWidth: 0.01, borderBottomColor: "#a3a3a3" }}></View> */}
 		</View>
 	);
 }
@@ -36,6 +36,8 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	textInput: {
-		marginLeft: 2,
+		marginLeft: 5,
+		marginRight: 5,
+		width: "95%",
 	},
 });

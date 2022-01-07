@@ -4,6 +4,7 @@ import { StyleSheet, Text } from "react-native";
 import Colors from "../../constants/Colors";
 import useColorScheme from "../../hooks/useColorScheme";
 import { View } from "../Themed";
+import Charts from "./Charts";
 
 export default function ExpenditureGraph() {
 	const colorScheme = useColorScheme();
@@ -12,6 +13,7 @@ export default function ExpenditureGraph() {
 		<View style={styles.container}>
 			<View
 				style={{
+					flex: 0.5,
 					display: "flex",
 					flexDirection: "row",
 					justifyContent: "space-between",
@@ -23,8 +25,10 @@ export default function ExpenditureGraph() {
 				<Text style={{ fontSize: 20, fontWeight: "bold", margin: 5 }}>Last costs</Text>
 				<FontAwesome color={Colors[colorScheme].tabIconDefault} name="ellipsis-h" size={30} />
 			</View>
+			<Charts />
 			<View
 				style={{
+					flex: 0.5,
 					width: "100%",
 					display: "flex",
 					flexDirection: "row",
